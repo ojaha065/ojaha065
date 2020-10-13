@@ -10,6 +10,12 @@ I'm a third year IT student currently living in Mikkeli, Finland. I'm just about
 
 During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂
 
+<p>
+    <img src="https://kissakala.sytes.net:8080/latest.svg" alt="??? page views" />
+    <br />
+    <sub><em>Because <b>of course</b> you need to have a hit counter in your GitHub profile, amirite?</em></sub>
+</p>
+
 - - - -
 
 <details>
@@ -31,10 +37,4 @@ During my free time I'm hacking together projects all over the place. Feel free 
 <p>
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=vue&include_all_commits=true" alt="My GitHub stats" />
     <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact" alt="My top languages" />
-</p>
-
-<p>
-    <img src="https://kissakala.sytes.net:8080/latest.svg" alt="Hit counter" />
-    <br />
-    <sub><em>Because <b>of course</b> you need to have a hit counter in your GitHub profile, amirite?</em></sub>
 </p>
