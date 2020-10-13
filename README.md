@@ -36,5 +36,5 @@ During my free time I'm hacking together projects all over the place. Feel free 
 
 <p>
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=vue&include_all_commits=true" alt="My GitHub stats" />
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact" alt="My top languages" />
+    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true" alt="My top languages" />
 </p>
