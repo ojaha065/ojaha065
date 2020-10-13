@@ -19,6 +19,8 @@ During my free time I'm hacking together projects all over the place. Feel free 
     &nbsp;
     <a align="left" href="https://t.me/JakeRaccoon"><img src="https://img.shields.io/static/v1?label=&message=JakeRaccoon&color=0088cc&style=flat&logo=telegram" alt="Telegram" /></a>
     &nbsp;
+    <span align="left"><img src="https://img.shields.io/static/v1?label=&message=JaHa1%237282&color=2C2F33&style=flat&logo=discord" alt="Discord" /></span>
+    &nbsp;
     <a align="left" href="https://steamcommunity.com/id/hiilivety/"><img src="https://img.shields.io/static/v1?label=&message=DisasterMaster&color=1b2838&style=flat&logo=steam" alt="Steam" /></a>
     &nbsp;
     <a align="left" href="https://www.linkedin.com/in/janihaiko/"><img src="https://img.shields.io/static/v1?label=LinkedIn&message=29&style=social&logo=linkedin" alt="LinkedIn" /></a>
@@ -28,11 +30,11 @@ During my free time I'm hacking together projects all over the place. Feel free 
 
 <p>
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=vue&include_all_commits=true" alt="My GitHub stats" />
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065" alt="My top languages" />
+    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact" alt="My top languages" />
 </p>
 
 <p>
-    <img src="https://kissakala.sytes.net:8080/latest.svg?cacheBust=true" alt="Hit counter" />
+    <img src="https://kissakala.sytes.net:8080/latest.svg" alt="Hit counter" />
     <br />
     <sub><em>Because <b>of course</b> you need to have a hit counter in your GitHub profile, amirite?</em></sub>
 </p>
