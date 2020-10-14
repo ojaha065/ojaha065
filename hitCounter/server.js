@@ -6,6 +6,7 @@ const productionMode = process.env.NODE_ENV === "production";
 const serverStartTime = new Date().getTime();
 
 const fs = require("fs");
+const tls = require("tls");
 const restify = require("restify");
 const fetch = require("node-fetch");
 const helmet = require("helmet");
@@ -18,9 +19,36 @@ const serverSettings = {
 	noWriteContinue: true
 };
 if (productionMode) {
+	const certs = {
+		"kissakala.sytes.net": {
+			cert: fs.readFileSync(process.env.CERTIFICATE),
+			key: fs.readFileSync(process.env.CERTIFICATE_KEY)
+		},
+		"dyn.kissakala.fi": {
+			cert: fs.readFileSync(process.env.CERTIFICATE_DYN),
+			key: fs.readFileSync(process.env.CERTIFICATE_KEY_DYN)
+		}
+	};
+
+	const secureContext = {
+		"kissakala.sytes.net": tls.createSecureContext({
+			cert: certs["kissakala.sytes.net"].cert,
+			key: certs["kissakala.sytes.net"].key,
+		}),
+		"dyn.kissakala.fi": tls.createSecureContext({
+			cert: certs["dyn.kissakala.fi"].cert,
+			key: certs["dyn.kissakala.fi"].key,
+		})
+	};
+
 	Object.assign(serverSettings, {
-		certificate: fs.readFileSync(process.env.CERTIFICATE),
-		key: fs.readFileSync(process.env.CERTIFICATE_KEY)
+		httpsServerOptions: {
+			cert: certs["kissakala.sytes.net"].cert,
+			key: certs["kissakala.sytes.net"].key,
+			SNICallback: (hostname, cb) => {
+				cb(null, secureContext[hostname]);
+			}
+		}
 	});
 }
 const app = restify.createServer(serverSettings);
@@ -109,8 +137,8 @@ app.get("/latest.svg", async (req, res) => {
 			});
 		}
 
-		// (Try to) disable GitHub cache
-		res.setHeader("Cache-Control", "max-age=0, no-cache, no-store, must-revalidate");
+		// (Try to) manage GitHub cache
+		res.setHeader("Cache-Control", "max-age=300,no-cache");
 		res.setHeader("Pragma", "no-cache");
 		res.setHeader("Expires", 0);
 		res.setHeader("ETag", `"Haiko-HitCounter-${serverStartTime}-${currentCount}"`);
@@ -118,7 +146,6 @@ app.get("/latest.svg", async (req, res) => {
 		const readStream = fs.createReadStream("./latest.svg");
 		res.setHeader("Content-Type", "image/svg+xml");
 		readStream.pipe(res);
-
 	}
 	catch (error) {
 		console.error(error);
