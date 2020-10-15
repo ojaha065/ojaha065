@@ -2,6 +2,7 @@
 
 ### Howdy there 👋
 
+<p align="right"><sub>&darr;Live feed of me at work during friday afternoons&darr;</sub></p>
 <img src="https://jaha1.mbnet.fi/kuvat/coder.gif" align="right" alt="Hello World!" />
 
 Don't know how you stumbled across my little corner here but glad to have you.
@@ -9,8 +10,6 @@ Don't know how you stumbled across my little corner here but glad to have you.
 I'm a third year IT student currently living in Mikkeli, Finland. I'm just about to finish my studies in the university of applied sciences (or polytechnic, as     it's known is some places). My degree programme mostly specialized in modern web development. Currently, I'm in the process of writing my thesis about electronic identification in online services, commissioned by my current employer.
 
 During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂
-
-<p align="right"><sub>&uarr;Live feed of me at work during friday afternoons&uarr;</sub></p>
 
 <p>
     <img src="https://dyn.kissakala.fi:8080/latest.svg" alt="??? page views" />
