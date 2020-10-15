@@ -1,20 +1,17 @@
-<div align="center">
-    <img src="https://jaha1.mbnet.fi/kuvat/oie_cEqh0sjvGOAc.gif" alt="Hello World!" />
-</div>
+<img src="https://jaha1.mbnet.fi/kuvat/oie_cEqh0sjvGOAc.gif" align="center" alt="Hello World!" />
 
 ### Howdy there 👋
 
+<img src="https://jaha1.mbnet.fi/kuvat/coder.gif" align="right" alt="Hello World!" />
+
 Don't know how you stumbled across my little corner here but glad to have you.
 
-I'm a third year IT student currently living in Mikkeli, Finland. I'm just about to finish my studies in the university of applied sciences (or polytechnic, as it's known is some places). My degree programme mostly specialized in modern web development. Currently, I'm in the process of writing my thesis about electronic identification in online services, commissioned by my current employer.
+I'm a third year IT student currently living in Mikkeli, Finland. I'm just about to finish my studies in the university of applied sciences (or polytechnic, as     it's known is some places). My degree programme mostly specialized in modern web development. Currently, I'm in the process of writing my thesis about electronic identification in online services, commissioned by my current employer.
 
 During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂
 
-<p>
-    <img src="https://dyn.kissakala.fi:8080/latest.svg" alt="??? page views" />
-    <br />
-    <sub><em>Because <b>of course</b> you need to have a hit counter in your GitHub profile, amirite?</em></sub>
-</p>
+<img src="https://dyn.kissakala.fi:8080/latest.svg" alt="??? page views" />
+<sub><em>Because <b>of course</b> you need to have a hit counter in your GitHub profile, amirite?</em></sub>
 
 - - - -
 
@@ -34,7 +31,5 @@ During my free time I'm hacking together projects all over the place. Feel free 
 
 - - - -
 
-<p>
-    <img align="left" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=vue&include_all_commits=true" alt="My GitHub stats" />
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true" alt="My top languages" />
-</p>
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=vue&include_all_commits=true" alt="My GitHub stats" />
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true" alt="My top languages" />
