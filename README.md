@@ -10,8 +10,13 @@ I'm a third year IT student currently living in Mikkeli, Finland. I'm just about
 
 During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂
 
-<img src="https://dyn.kissakala.fi:8080/latest.svg" alt="??? page views" />
-<sub><em>Because <b>of course</b> you need to have a hit counter in your GitHub profile, amirite?</em></sub>
+<p align="right"><sub>&uarr;Live feed of me at work during friday afternoons&uarr;</sub></p>
+
+<p>
+    <img src="https://dyn.kissakala.fi:8080/latest.svg" alt="??? page views" />
+    <br />
+    <sub><em>Because <b>of course</b> you need to have a hit counter in your GitHub profile, amirite?</em></sub>
+</p>
 
 - - - -
 
