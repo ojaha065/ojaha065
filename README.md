@@ -1,7 +1,5 @@
 <img src="https://jaha1.mbnet.fi/kuvat/oie_cEqh0sjvGOAc.gif" align="center" alt="Hello World!" />
 
-### Howdy there 👋
-
 <p align="right"><sub>&darr;Live feed of me at work during friday afternoons&darr;</sub></p>
 <img src="https://jaha1.mbnet.fi/kuvat/coder.gif" align="right" alt="Hello World!" />
 
