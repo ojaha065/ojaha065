@@ -11,6 +11,7 @@ During my free time I'm hacking together projects all over the place. Feel free 
 
 <p>
     <img src="https://dyn.kissakala.fi:8080/latest.svg" alt="??? page views" />
+    <img src="https://img.shields.io/static/v1?label=Pronouns&message=he%2Fhim&style=plastic&cacheSeconds=7200" alt="Pronouns: he/him" />
     <br />
     <sub><em>Because <b>of course</b> you need to have a hit counter in your GitHub profile, amirite?</em></sub>
 </p>
