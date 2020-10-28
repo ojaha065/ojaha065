@@ -40,5 +40,5 @@ During my free time I'm hacking together projects all over the place. Feel free 
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true" alt="My top languages" />
 
 <p align="center">
-    <img align="center" src="https://jaha1.mbnet.fi/kuvat/68747470733a2f2f696e74726f2e727573746272696467652e636f6d2f696d672f6665727269732e676966.gif" alt="crab" />
+    <img align="center" src="https://media.giphy.com/media/oehyAgfgidCgg/source.gif" alt="raccoon" />
 </p>
