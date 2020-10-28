@@ -40,6 +40,6 @@ During my free time I'm hacking together projects all over the place. Feel free 
 - - - -
 
 <img align="left" width="450" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=vue&include_all_commits=true" alt="My GitHub stats" />
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true" alt="My top languages" />
-<br />
-<img src="https://media.giphy.com/media/zmFLRuhZ3DNM4/source.gif" width="150" alt="running tiger" />
+<img align="left" width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true" alt="My top languages" />
+
+<p align="center"><img src="https://media.giphy.com/media/zmFLRuhZ3DNM4/source.gif" width="150" alt="running tiger" /></p>
