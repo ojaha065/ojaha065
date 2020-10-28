@@ -1,4 +1,7 @@
-<img src="https://jaha1.mbnet.fi/kuvat/oie_cEqh0sjvGOAc.gif" align="center" alt="Hello World!" />
+<div>
+    <img src="https://jaha1.mbnet.fi/kuvat/oie_cEqh0sjvGOAc.gif" align="center" alt="Hello World!" />
+    <img src="https://media.giphy.com/media/oehyAgfgidCgg/source.gif" width="150" align="center" alt="Raccoon" />
+</div>
 
 <p align="right"><sub>&darr;Live feed of me at work during friday afternoons&darr;</sub></p>
 <img src="https://jaha1.mbnet.fi/kuvat/coder.gif" align="right" alt="Hello World!" />
@@ -38,7 +41,5 @@ During my free time I'm hacking together projects all over the place. Feel free 
 
 <img align="left" width="450" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=vue&include_all_commits=true" alt="My GitHub stats" />
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true" alt="My top languages" />
-
-<p align="center">
-    <img align="center" src="https://media.giphy.com/media/oehyAgfgidCgg/source.gif" alt="raccoon" />
-</p>
+<br />
+<img src="https://media.giphy.com/media/zmFLRuhZ3DNM4/source.gif" width="150" alt="running tiger" />
