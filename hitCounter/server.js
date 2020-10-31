@@ -57,6 +57,8 @@ const iconBase64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAA
 
 let cooldown = false;
 
+app.use(restify.plugins.gzipResponse());
+
 // Helmet
 app.use(helmet.contentSecurityPolicy({
 	directives: {
