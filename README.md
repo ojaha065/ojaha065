@@ -8,7 +8,7 @@
 
 Don't know how you stumbled across my little corner here but glad to have you.
 
-I'm a third year IT student currently living in Mikkeli, Finland. I'm just about to finish my studies in the university of applied sciences (or polytechnic, as     it's known is some places). My degree programme mostly specialized in modern web development. Currently, I'm in the process of writing my thesis about electronic identification in online services, commissioned by my current employer.
+I'm a junior developer currently living in Mikkeli, Finland. I just finished my studies in the university of applied sciences (or polytechnic, as it's known is some places). My degree programme mostly specialized in modern web development. Currently, I'm working as Junior IT Specialist at [Disec Oy](https://disec.fi/ "Disec Oy").
 
 During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂
 
