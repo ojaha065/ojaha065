@@ -57,6 +57,14 @@ const iconBase64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAA
 
 let cooldown = false;
 
+app.use(restify.plugins.throttle({
+	burst: 2,
+	rate: 1,
+	ip: true,
+	username: false,
+	xff: false
+}));
+
 app.use(restify.plugins.gzipResponse());
 
 // Helmet
