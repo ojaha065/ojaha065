@@ -56,6 +56,7 @@ const app = restify.createServer(serverSettings);
 const iconBase64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABuwAAAbsBOuzj4gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANASURBVHic7dq/i1RXFAfwz1tlcSUoWcFCTRPYTSMJLIiWFlH8UQQrhXQpLCZFqtSptglYpQqkMSH5A4Ib2G4bS0GwEkUQMY0xIlHYdcVrMXdhvL6dvDfzZu7Ie184DDO8c873ft+759177hQhBG3GXG4CudEJkJtAbnQC5CaQG50AuQnkRidAbgK50QmQm0BudALkJpAbrRdg7zSSFEWxhM9wdMCOxE94jL/j547dDSHcmzi3SfQDiqLYh9O4iAv4dMRQD/AX1rARQthshOAgQgiNGPbgMm7gJULD9jLGvow9jfFuYOD78W28W3UH9TRaXb8HMef+bALgEH7Ak4qkt7GOHpaxMBBrIf7Wi9dsV4z5JHI4NDUB9N8cPTyrccfuYKVGjpXoUzX+s8hpbqIC4BRu1SD2GquYH0Ho+ej7uka+WzjVuAA4iF/wpuY8PTEk5iLO4Ct8gX27XHdCvfryJnI92IgAOI57NQjs3Pn3Bo9PcB33S3ye42d8tIsIdZ6EEDkfH0sAXMGLmokDVktifRMHOczvxyFcVkfg8QJXagugv0K8NkLCoF+85pN4f1Tw+1NcmA2pCXUK46Bdw95KAuAwNkZMtC2p9vHOV/G9VGE6rqj+ikxtA4eHCoCTeDRigoD1kjn/f4990C9cixUL8voY/B7hZKkAOI/NMYIH9BKy1yv6PTfk8U9i9sbkuInz7wigv2kZd/ABywnZsmq/m31eUYDlBnhu4mKM5xy2GggavLu8Xazp+11FARYa4roVx+52QwGfJkTP1PT/F0sVRRhlA1Vmt2epI/QxbhRFcWzaiWdlCuzYK/yOs/rNlK9xYGJTYIaK4G720MAbQsNFcA5CCGu4FFUZB18m32+OGQ9+CzvlujxHXWzpL7rWYFYWQsOmw1ISczILoRlYCpfZ1akuhQcS5dgMpfZTEmM6m6Ek6bS3wwH/4XtJ59c0t8NJ4mk1RP7BrzhS4penITJAYJItsXNlg04Gn68llpBpZ1M0IdbetnhCsp0HIyVCtPNorESID/JwtPXH4xMR4L0kbfuDxIeEWeoIZUEnQG4CudEJkJtAbnQC5CaQG50AuQnkRidAbgK50QmQm0ButF6At8nwsS0JQYGEAAAAAElFTkSuQmCC";
 
 let cooldown = false;
+let currentCount;
 
 app.use(restify.plugins.throttle({
 	burst: 2,
@@ -102,21 +103,21 @@ app.get("/", (req, res) => {
 });
 
 app.get("/latest.svg", async (req, res) => {
-	let currentCount;
-
 	try {
-		try {
-			const data = await fs.promises.readFile("./counter.txt", "UTF-8");
-			currentCount = Number(data);
-			if (isNaN(currentCount)) {
+		if (!currentCount || !cooldown) {
+			try {
+				const data = await fs.promises.readFile("./counter.txt", "UTF-8");
+				currentCount = Number(data);
+				if (isNaN(currentCount)) {
+					currentCount = 0;
+				}
+			}
+			catch (error) {
+				if (error.code !== "ENOENT") {
+					console.error(error);
+				}
 				currentCount = 0;
 			}
-		}
-		catch (error) {
-			if (error.code !== "ENOENT") {
-				console.error(error);
-			}
-			currentCount = 0;
 		}
 
 		if (!cooldown) {
@@ -124,7 +125,13 @@ app.get("/latest.svg", async (req, res) => {
 			cooldown = true;
 			setTimeout(() => {
 				cooldown = false;
-			}, 300000);
+			}, productionMode ? 300000 : 3000);
+
+			fs.writeFile("./counter.txt", String(currentCount), (error) => {
+				if (error) {
+					console.error(error);
+				}
+			});
 
 			try {
 				const response = await fetch(`https://img.shields.io/static/v1?message=${currentCount}&style=plastic&label=Profile%20views&logo=${iconBase64}`);
@@ -161,12 +168,6 @@ app.get("/latest.svg", async (req, res) => {
 		console.error(error);
 		res.send(500);
 	}
-
-	fs.writeFile("./counter.txt", String(currentCount), (error) => {
-		if (error) {
-			console.error(error);
-		}
-	});
 });
 
 // ### Starting the server
