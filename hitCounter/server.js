@@ -162,7 +162,7 @@ app.get("/latest.svg", async (req, res) => {
 		res.send(500);
 	}
 
-	fs.writeFile("./counter.txt", currentCount, (error) => {
+	fs.writeFile("./counter.txt", String(currentCount), (error) => {
 		if (error) {
 			console.error(error);
 		}
