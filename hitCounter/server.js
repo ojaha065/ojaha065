@@ -95,6 +95,7 @@ app.use(helmet.noSniff());
 app.use(helmet.permittedCrossDomainPolicies());
 app.use(helmet.referrerPolicy());
 app.use(helmet.xssFilter());
+app.use(helmet.originAgentCluster());
 
 // ### Routes
 
