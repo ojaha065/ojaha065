@@ -7,7 +7,6 @@
 <img src="https://jaha1.mbnet.fi/kuvat/coder.gif" align="right" alt="Hello World!" />
 
 <p>
-    <br />
     <img src="https://img.shields.io/static/v1?label=Pronouns&message=he%2Fhim&style=plastic&cacheSeconds=7200" alt="Pronouns: he/him" />
     <img src="https://img.shields.io/static/v1?label=Build&message=passing&style=plastic&cacheSeconds=7200&color=success" alt="Build: passing" />
     <img src="https://img.shields.io/static/v1?label=Dependencies%20last%20updated&message=June%201st%201997&style=plastic&cacheSeconds=7200" alt="Dependencies last updated: Juna 1st 1997" />
