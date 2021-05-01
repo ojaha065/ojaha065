@@ -29,7 +29,7 @@ During my free time I'm hacking together projects all over the place. Feel free 
 - - - -
 
 <details>
-    <summary>Find me on (click to show)</summary>
+    <summary>:wave: Find me on (click to show)</summary>
     <br />
     <a align="left" href="mailto:haiko.jani@gmail.com"><img src="https://img.shields.io/static/v1?label=&message=haiko.jani@gmail.com&color=D44638&labelColor=C6C6C6&style=flat&logo=gmail" alt="Email" /></a>
     &nbsp;
@@ -42,6 +42,12 @@ During my free time I'm hacking together projects all over the place. Feel free 
     <a align="left" href="https://steamcommunity.com/id/hiilivety/"><img src="https://img.shields.io/static/v1?label=&message=DisasterMaster&color=1b2838&style=flat&logo=steam" alt="Steam" /></a>
     &nbsp;
     <a align="left" href="https://www.linkedin.com/in/janihaiko/"><img src="https://img.shields.io/static/v1?label=LinkedIn&message=33&style=social&logo=linkedin" alt="LinkedIn" /></a>
+</details>
+
+<details>
+    <summary>:sparkles: GitHub achievements and miscellaneous statistics provided by GitHub Metrics (click to show)</summary>
+    <br />
+    <img src="https://dyn.kissakala.fi:22394/ojaha065?base=0&config.timezone=Europe%2FHelsinki&config.twemoji=yes&config.gemoji=yes&config.animations=yes&retries=1&isocalendar=yes&isocalendar.duration=full-year&stars=yes&stars_limit=10&topics=yes&topics.sort=stars&topics.mode=mastered&topics.limit=0&people=yes&people.limit=25&people.shuffle=yes&achievements=yes&achievements.secrets=yes" alt="GitHub Metrics" />
 </details>
 
 - - - -
