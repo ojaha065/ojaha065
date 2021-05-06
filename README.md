@@ -41,7 +41,7 @@ During my free time I'm hacking together projects all over the place. Feel free 
     &nbsp;
     <a align="left" href="https://steamcommunity.com/id/hiilivety/"><img src="https://img.shields.io/static/v1?label=&message=DisasterMaster&color=1b2838&style=flat&logo=steam" alt="Steam" /></a>
     &nbsp;
-    <a align="left" href="https://www.linkedin.com/in/janihaiko/"><img src="https://img.shields.io/static/v1?label=LinkedIn&message=33&style=social&logo=linkedin" alt="LinkedIn" /></a>
+    <a align="left" href="https://www.linkedin.com/in/janihaiko/"><img src="https://img.shields.io/static/v1?label=LinkedIn&message=34&style=social&logo=linkedin" alt="LinkedIn" /></a>
 </details>
 
 <details>

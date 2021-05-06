@@ -1,6 +1,6 @@
 "use strict";
 
-// (C) Jani Haiko, 2020
+// (C) Jani Haiko, 2020 - 2021
 
 const productionMode = process.env.NODE_ENV === "production";
 const serverStartTime = new Date().getTime();
@@ -69,26 +69,18 @@ app.use(restify.plugins.throttle({
 app.use(restify.plugins.gzipResponse());
 
 // Helmet
-app.use(helmet.contentSecurityPolicy({
-	directives: {
-		defaultSrc: ["'self'"],
-		imgSrc: ["data:"],
-		sandbox: true,
-		upgradeInsecureRequests: true,
-		blockAllMixedContent: true
-	}
-}));
+app.use(helmet.contentSecurityPolicy());
 app.use(helmet.dnsPrefetchControl());
 app.use(helmet.expectCt({
 	enforce: true,
-	maxAge: 2147483648
+	maxAge: Number.MAX_SAFE_INTEGER
 
 }));
 app.use(helmet.frameguard({
 	action: "deny"
 }));
 app.use(helmet.hsts({
-	maxAge: 2147483648
+	maxAge: Number.MAX_SAFE_INTEGER
 }));
 app.use(helmet.ieNoOpen());
 app.use(helmet.noSniff());
@@ -96,6 +88,9 @@ app.use(helmet.permittedCrossDomainPolicies());
 app.use(helmet.referrerPolicy());
 app.use(helmet.xssFilter());
 app.use(helmet.originAgentCluster());
+app.use(helmet.crossOriginEmbedderPolicy());
+app.use(helmet.crossOriginOpenerPolicy());
+app.use(helmet.crossOriginResourcePolicy());
 
 // ### Routes
 
