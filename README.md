@@ -47,7 +47,7 @@ During my free time I'm hacking together projects all over the place. Feel free 
 <details>
     <summary>:sparkles: GitHub achievements and miscellaneous statistics provided by GitHub Metrics (click to show)</summary>
     <br />
-    <img src="https://dyn.kissakala.fi:22394/ojaha065?base=0&config.timezone=Europe%2FHelsinki&config.twemoji=yes&config.gemoji=yes&config.animations=yes&retries=1&isocalendar=yes&isocalendar.duration=full-year&stars=yes&stars_limit=10&topics=yes&topics.sort=stars&topics.mode=mastered&topics.limit=0&people=yes&people.limit=25&people.shuffle=yes&achievements=yes&achievements.secrets=yes" alt="GitHub Metrics" />
+    <img src="https://dyn.kissakala.fi:22394/ojaha065?base=0&config.timezone=Europe%2FHelsinki&config.twemoji=yes&config.gemoji=yes&config.animations=yes&retries=1&isocalendar=yes&isocalendar.duration=full-year&stars=yes&stars_limit=10&people=yes&people.limit=25&people.shuffle=yes&achievements=yes&achievements.secrets=yes" alt="GitHub Metrics" />
 </details>
 
 - - - -
