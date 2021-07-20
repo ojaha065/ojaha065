@@ -69,30 +69,51 @@ app.use(restify.plugins.throttle({
 app.use(restify.plugins.gzipResponse());
 
 // Helmet
-app.use(helmet.contentSecurityPolicy());
-app.use(helmet.dnsPrefetchControl());
-app.use(helmet.expectCt({
-	enforce: true,
-	maxAge: Number.MAX_SAFE_INTEGER
+app.use(helmet({
+	contentSecurityPolicy: {
+		useDefaults: true
+	},
+	crossOriginEmbedderPolicy: true,
+	crossOriginOpenerPolicy: true,
+	crossOriginResourcePolicy: {
+		policy: "cross-origin"
+	},
+	expectCt: {
+		maxAge: Number.MAX_SAFE_INTEGER,
+		enforce: true
+	},
+	referrerPolicy: true,
+	hsts: {
+		maxAge: Number.MAX_SAFE_INTEGER,
+		includeSubDomains: true,
+		preload: true
+	},
+	noSniff: true,
+	originAgentCluster: true,
+	dnsPrefetchControl: {
+		allow: true
+	},
+	ieNoOpen: true,
+	frameguard: {
+		action: "deny"
+	},
+	permittedCrossDomainPolicies: true,
+	xssFilter: true
+}));
 
-}));
-app.use(helmet.frameguard({
-	action: "deny"
-}));
-app.use(helmet.hsts({
-	maxAge: Number.MAX_SAFE_INTEGER
-}));
-app.use(helmet.ieNoOpen());
-app.use(helmet.noSniff());
-app.use(helmet.permittedCrossDomainPolicies());
-app.use(helmet.referrerPolicy());
-app.use(helmet.xssFilter());
-app.use(helmet.originAgentCluster());
-app.use(helmet.crossOriginEmbedderPolicy());
-app.use(helmet.crossOriginOpenerPolicy());
-app.use(helmet.crossOriginResourcePolicy());
+// CORS
+app.use((req, res, next) => {
+	res.header("Access-Control-Allow-Origin", "https://github.com");
+
+	next();
+});
 
 // ### Routes
+
+app.opts("*", (req, res) => {
+	res.header("Access-Control-Allow-Methods", "GET");
+	res.status(201).send();
+});
 
 app.get("/", (req, res) => {
 	res.send(200, "OK");
