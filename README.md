@@ -4,7 +4,7 @@
 </div>
 
 <p align="right"><sub>&darr;Live feed of me at work during friday afternoons&darr;</sub></p>
-<img src="https://jaha1.mbnet.fi/kuvat/coder.gif" align="right" alt="Hello World!" />
+<img src="https://jaha1.mbnet.fi/kuvat/coder.gif?v=2" align="right" alt="Hello World!" />
 
 <p>
     <img src="https://img.shields.io/static/v1?label=Pronouns&message=he%2Fhim&style=plastic&cacheSeconds=7200" alt="Pronouns: he/him" />
