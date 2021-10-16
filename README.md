@@ -47,7 +47,9 @@ During my free time I'm hacking together projects all over the place. Feel free 
 </details>
 
 <details>
-    <summary>:sparkles: GitHub achievements and miscellaneous statistics provided by GitHub Metrics (click to show)</summary>
+    <summary>:sparkles: GitHub achievements and miscellaneous statistics (click to show)</summary>
+    <br />
+    <img src="https://github-profile-trophy.vercel.app/?username=ojaha065&theme=gruvbox&margin-w=3&margin-h=3&no-frame=true" alt="GitHub Profile Trophy by ryo-ma" />
     <br />
     <img src="https://dyn.kissakala.fi:22394/ojaha065?base=0&config.timezone=Europe%2FHelsinki&config.twemoji=yes&config.gemoji=yes&config.animations=yes&retries=1&isocalendar=yes&isocalendar.duration=full-year&stars=yes&stars_limit=10&people=yes&people.limit=25&people.shuffle=yes&achievements=yes&achievements.secrets=yes&v=2" alt="GitHub Metrics" />
 </details>
