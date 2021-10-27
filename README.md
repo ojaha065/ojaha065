@@ -57,6 +57,6 @@ During my free time I'm hacking together projects all over the place. Feel free 
 - - - -
 
 <img align="left" width="440" height="195" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=gruvbox&include_all_commits=true&hide=prs" alt="My GitHub stats" />
-<img align="left" height="195" width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true&theme=gruvbox" alt="My top languages" />
+<img align="left" height="195" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true&theme=gruvbox" alt="My top languages" />
 
 <p align="center"><img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" /></p>
