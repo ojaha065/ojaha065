@@ -4,10 +4,12 @@
 </div>
 
 <p align="right"><sub>&darr;Live feed of me at work during friday afternoons&darr;</sub></p>
-<img src="https://jaha1.mbnet.fi/kuvat/coder.gif" align="right" alt="Hello World!" />
+<img src="https://jaha1.mbnet.fi/kuvat/coder.gif?v=2" align="right" alt="Hello World!" />
 
 <p>
     <img src="https://img.shields.io/static/v1?label=Pronouns&message=he%2Fhim&style=plastic&cacheSeconds=7200" alt="Pronouns: he/him" />
+    <a href="https://www.16personalities.com/profiles/bd133a3a5dde2"><img src="https://img.shields.io/static/v1?label=Myers–Briggs Personality Type&message=ISTJ-T&style=plastic&cacheSeconds=7200" alt="Myers–Briggs Personality Type: ISTJ-T" /></a>
+    <br />
     <img src="https://img.shields.io/static/v1?label=Build&message=passing&style=plastic&cacheSeconds=7200&color=success" alt="Build: passing" />
     <img src="https://img.shields.io/static/v1?label=Dependencies%20last%20updated&message=June%201st%201997&style=plastic&cacheSeconds=7200" alt="Dependencies last updated: June 1st 1997" />
     <br />
@@ -37,22 +39,24 @@ During my free time I'm hacking together projects all over the place. Feel free 
     &nbsp;
     <a align="left" href="https://www.facebook.com/jani.haiko.1/"><img src="https://img.shields.io/static/v1?label=&message=Jani%20Haiko&color=898F9C&style=flat&logo=facebook" alt="Facebook" /></a>
     &nbsp;
-    <span align="left"><img src="https://img.shields.io/static/v1?label=&message=JaHa1%237282&color=2C2F33&style=flat&logo=discord" alt="Discord" /></span>
+    <a align="left" href="https://discordapp.com/users/400220327075905538"><img src="https://img.shields.io/static/v1?label=&message=JaHa1%237282&color=2C2F33&style=flat&logo=discord" alt="Discord" /></a>
     &nbsp;
     <a align="left" href="https://steamcommunity.com/id/hiilivety/"><img src="https://img.shields.io/static/v1?label=&message=DisasterMaster&color=1b2838&style=flat&logo=steam" alt="Steam" /></a>
     &nbsp;
-    <a align="left" href="https://www.linkedin.com/in/janihaiko/"><img src="https://img.shields.io/static/v1?label=LinkedIn&message=36&style=social&logo=linkedin" alt="LinkedIn" /></a>
+    <a align="left" href="https://www.linkedin.com/in/janihaiko/"><img src="https://img.shields.io/static/v1?label=LinkedIn&message=37&style=social&logo=linkedin" alt="LinkedIn" /></a>
 </details>
 
 <details>
-    <summary>:sparkles: GitHub achievements and miscellaneous statistics provided by GitHub Metrics (click to show)</summary>
+    <summary>:sparkles: GitHub achievements and miscellaneous statistics (click to show)</summary>
     <br />
-    <img src="https://dyn.kissakala.fi:22394/ojaha065?base=0&config.timezone=Europe%2FHelsinki&config.twemoji=yes&config.gemoji=yes&config.animations=yes&retries=1&isocalendar=yes&isocalendar.duration=full-year&stars=yes&stars_limit=10&people=yes&people.limit=25&people.shuffle=yes&achievements=yes&achievements.secrets=yes" alt="GitHub Metrics" />
+    <img src="https://github-profile-trophy.vercel.app/?username=ojaha065&theme=gruvbox&margin-w=3&margin-h=3&no-frame=true" alt="GitHub Profile Trophy by ryo-ma" />
+    <hr />
+    <img src="https://dyn.kissakala.fi:22394/ojaha065?base=0&config.timezone=Europe%2FHelsinki&config.twemoji=yes&config.gemoji=yes&config.animations=yes&retries=1&isocalendar=yes&isocalendar.duration=full-year&stars=yes&stars_limit=10&people=yes&people.limit=25&people.shuffle=yes&achievements=yes&achievements.secrets=yes&v=2" alt="GitHub Metrics" />
 </details>
 
 - - - -
 
-<img align="left" width="450" height="195" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=gruvbox&include_all_commits=true&hide=prs" alt="My GitHub stats" />
-<img align="left" height="195" width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true&theme=gruvbox" alt="My top languages" />
+<img align="left" width="440" height="195" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=gruvbox&include_all_commits=true&hide=prs" alt="My GitHub stats" />
+<img align="left" height="195" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true&theme=gruvbox" alt="My top languages" />
 
 <p align="center"><img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" /></p>
