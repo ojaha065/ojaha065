@@ -42,7 +42,7 @@ if (productionMode) {
 	};
 
 	Object.assign(serverSettings, {
-		httpsServerOptions: {
+		http2: {
 			cert: certs["kissakala.sytes.net"].cert,
 			key: certs["kissakala.sytes.net"].key,
 			SNICallback: (hostname, cb) => {
