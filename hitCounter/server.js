@@ -45,6 +45,7 @@ if (productionMode) {
 		http2: {
 			cert: certs["kissakala.sytes.net"].cert,
 			key: certs["kissakala.sytes.net"].key,
+			allowHTTP1: true,
 			SNICallback: (hostname, cb) => {
 				cb(null, secureContext[hostname]);
 			}
