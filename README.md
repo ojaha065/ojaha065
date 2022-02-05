@@ -51,7 +51,7 @@ During my free time I'm hacking together projects all over the place. Feel free 
     <br />
     <img src="https://github-profile-trophy.vercel.app/?username=ojaha065&theme=gruvbox&margin-w=3&margin-h=3&no-frame=true" alt="GitHub Profile Trophy by ryo-ma" />
     <hr />
-    <img src="https://dyn.kissakala.fi:22394/ojaha065?base=0&config.timezone=Europe%2FHelsinki&config.twemoji=yes&config.gemoji=yes&config.animations=yes&retries=1&isocalendar=yes&isocalendar.duration=full-year&stars=yes&stars_limit=10&people=yes&people.limit=25&people.shuffle=yes&achievements=yes&achievements.secrets=yes&v=3" alt="GitHub Metrics" />
+    <img src="https://dyn.kissakala.fi:22394/ojaha065?base=0&config.timezone=Europe%2FHelsinki&config.twemoji=yes&config.gemoji=yes&config.animations=yes&retries=1&isocalendar=yes&isocalendar.duration=full-year&stars=yes&stars_limit=10&people=yes&people.limit=25&people.shuffle=yes&achievements=yes&achievements.secrets=yes&fortune=yes" alt="GitHub Metrics" />
 </details>
 
 - - - -
