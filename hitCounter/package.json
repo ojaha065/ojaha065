@@ -4,8 +4,9 @@
   "description": "Simple Node backend for my GitHub profile readme hit counter",
   "private": true,
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
