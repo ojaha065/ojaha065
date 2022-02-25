@@ -1,6 +1,6 @@
 "use strict";
 
-// (C) Jani Haiko, 2020 - 2021
+// (C) Jani Haiko, 2020 - 2022
 
 const productionMode = process.env.NODE_ENV === "production";
 const serverStartTime = new Date().getTime();
@@ -103,7 +103,7 @@ app.use(helmet({
 }));
 
 // CORS
-app.use((req, res, next) => {
+app.use((_req, res, next) => {
 	res.header("Access-Control-Allow-Origin", "https://github.com");
 
 	next();
@@ -111,12 +111,12 @@ app.use((req, res, next) => {
 
 // ### Routes
 
-app.opts("*", (req, res) => {
+app.opts("*", (_req, res) => {
 	res.header("Access-Control-Allow-Methods", "GET");
 	res.status(201).send();
 });
 
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
 	res.send(200, "OK");
 });
 
