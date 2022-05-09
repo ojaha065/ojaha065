@@ -29,24 +29,19 @@ During my free time I'm hacking together projects all over the place. Feel free 
 </p>
 
 - - - -
-
-<details>
-    <summary>:wave: Find me on (click to show)</summary>
-    <br />
-    <a align="left" href="mailto:haiko.jani@gmail.com"><img src="https://img.shields.io/static/v1?label=&message=haiko.jani@gmail.com&color=D44638&labelColor=C6C6C6&style=flat&logo=gmail" alt="Email" /></a>
-    &nbsp;
-    <a align="left" href="https://t.me/JakeRaccoon"><img src="https://img.shields.io/static/v1?label=&message=JakeRaccoon&color=0088cc&style=flat&logo=telegram" alt="Telegram" /></a>
-    &nbsp;
-    <a align="left" href="https://mastodon.social/web/@jakeRaccoon"><img src="https://img.shields.io/static/v1?label=&message=Jake%20Raccoon&color=1f232c&style=flat&logo=Mastodon" alt="mastodon.social" /></a>
-    &nbsp;
-    <a align="left" href="https://www.facebook.com/jani.haiko.1/"><img src="https://img.shields.io/static/v1?label=&message=Jani%20Haiko&color=898F9C&style=flat&logo=facebook" alt="Facebook" /></a>
-    &nbsp;
-    <a align="left" href="https://discordapp.com/users/400220327075905538"><img src="https://img.shields.io/static/v1?label=&message=JaHa1%237282&color=2C2F33&style=flat&logo=discord" alt="Discord" /></a>
-    &nbsp;
-    <a align="left" href="https://steamcommunity.com/id/hiilivety/"><img src="https://img.shields.io/static/v1?label=&message=DisasterMaster&color=1b2838&style=flat&logo=steam" alt="Steam" /></a>
-    &nbsp;
-    <a align="left" href="https://www.linkedin.com/in/janihaiko/"><img src="https://img.shields.io/static/v1?label=LinkedIn&message=41&style=social&logo=linkedin" alt="LinkedIn" /></a>
-</details>
+<a align="left" href="mailto:haiko.jani@gmail.com"><img src="https://img.shields.io/static/v1?label=&message=haiko.jani@gmail.com&color=D44638&labelColor=C6C6C6&style=flat&logo=gmail" alt="Email" /></a>
+&nbsp;
+<a align="left" href="https://t.me/JakeRaccoon"><img src="https://img.shields.io/static/v1?label=&message=JakeRaccoon&color=0088cc&style=flat&logo=telegram" alt="Telegram" /></a>
+&nbsp;
+<a align="left" href="https://mastodon.social/web/@jakeRaccoon"><img src="https://img.shields.io/static/v1?label=&message=Jake%20Raccoon&color=1f232c&style=flat&logo=Mastodon" alt="mastodon.social" /></a>
+&nbsp;
+<a align="left" href="https://www.facebook.com/jani.haiko.1/"><img src="https://img.shields.io/static/v1?label=&message=Jani%20Haiko&color=898F9C&style=flat&logo=facebook" alt="Facebook" /></a>
+&nbsp;
+<a align="left" href="https://discordapp.com/users/400220327075905538"><img src="https://img.shields.io/static/v1?label=&message=JaHa1%237282&color=2C2F33&style=flat&logo=discord" alt="Discord" /></a>
+&nbsp;
+<a align="left" href="https://steamcommunity.com/id/hiilivety/"><img src="https://img.shields.io/static/v1?label=&message=DisasterMaster&color=1b2838&style=flat&logo=steam" alt="Steam" /></a>
+&nbsp;
+<a align="left" href="https://www.linkedin.com/in/janihaiko/"><img src="https://img.shields.io/static/v1?label=LinkedIn&message=41&style=social&logo=linkedin" alt="LinkedIn" /></a>
 
 <details>
     <summary>:sparkles: GitHub achievements and miscellaneous statistics (click to show)</summary>
