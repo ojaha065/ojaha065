@@ -33,7 +33,7 @@ During my free time I'm hacking together projects all over the place. Feel free 
 &nbsp;
 <a align="left" href="https://t.me/JakeRaccoon"><img src="https://img.shields.io/static/v1?label=&message=JakeRaccoon&color=0088cc&style=flat&logo=telegram" alt="Telegram" /></a>
 &nbsp;
-<a align="left" href="https://mastodon.social/web/@jakeRaccoon"><img src="https://img.shields.io/static/v1?label=&message=Jake%20Raccoon&color=1f232c&style=flat&logo=Mastodon" alt="mastodon.social" /></a>
+<a align="left" href="https://mastodon.social/@jakeRaccoon"><img src="https://img.shields.io/static/v1?label=&message=Jake%20Raccoon&color=1f232c&style=flat&logo=Mastodon" alt="mastodon.social" /></a>
 &nbsp;
 <a align="left" href="https://www.facebook.com/jani.haiko.1/"><img src="https://img.shields.io/static/v1?label=&message=Jani%20Haiko&color=898F9C&style=flat&logo=facebook" alt="Facebook" /></a>
 &nbsp;
