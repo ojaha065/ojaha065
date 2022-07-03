@@ -1,5 +1,5 @@
 <div>
-    <img src="http://jaha1.mbnet.fi/kuvat/oie_cEqh0sjvGOAc.gif" align="center" alt="Hello World!" />
+    <img src="http://jhaiko.tech/kuvat/oie_cEqh0sjvGOAc.gif" align="center" alt="Hello World!" />
     <img src="https://media.giphy.com/media/oehyAgfgidCgg/source.gif" width="150" align="center" alt="Raccoon" />
 </div>
 
@@ -26,7 +26,7 @@ During my free time I'm hacking together projects all over the place. Feel free 
 </p>
 
 - - - -
-<a align="left" href="mailto:haiko.jani@gmail.com"><img src="https://img.shields.io/static/v1?label=&message=haiko.jani@gmail.com&color=D44638&labelColor=C6C6C6&style=flat&logo=gmail" alt="Email" /></a>
+<a align="left" href="mailto:hello@jhaiko.tech"><img src="https://img.shields.io/static/v1?label=&message=hello@jhaiko.tech&color=D44638&labelColor=C6C6C6&style=flat&logo=gmail" alt="Email" /></a>
 &nbsp;
 <a align="left" href="https://t.me/JakeRaccoon"><img src="https://img.shields.io/static/v1?label=&message=JakeRaccoon&color=0088cc&style=flat&logo=telegram" alt="Telegram" /></a>
 &nbsp;
@@ -53,4 +53,4 @@ During my free time I'm hacking together projects all over the place. Feel free 
 <img align="left" width="440" height="195" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=gruvbox&include_all_commits=true&hide=prs" alt="My GitHub stats" />
 <img align="left" height="195" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true&theme=gruvbox" alt="My top languages" />
 
-<p align="center"><img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" /></p>
+<p align="center"><img src="https://readme-jokes.vercel.app/api?v=2" alt="Jokes Card" /></p>
