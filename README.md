@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/static/v1?label=Vulnerabilities&message=high&style=plastic&cacheSeconds=7200&color=red" alt="Vulnerabilities: high" />
 </p>
 
-Don't know how you stumbled across my little corner here but glad to have you.
+Don't know how you stumbled across my little corner here but glad to have you. :wave:
 
 I'm a web/software developer currently living in Mikkeli, Finland. I graduated from university of applied sciences (or polytechnic, as it's known is some places) in 2020 and my degree programme mostly specialized in modern web development technologies. Currently, I'm working as IT Specialist at [Disec Oy](https://disec.fi/ "Disec Oy").
 
