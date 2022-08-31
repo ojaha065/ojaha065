@@ -5,9 +5,8 @@
 const productionMode = process.env.NODE_ENV === "production";
 const serverStartTime = new Date().getTime();
 
-import { readFileSync, promises, writeFile, createWriteStream, appendFile, createReadStream } from "fs";
-import { createSecureContext } from "tls";
-import { createServer, plugins } from "restify";
+import { promises, writeFile, createWriteStream, createReadStream } from "fs";
+import { createServer } from "restify";
 import fetch from "node-fetch";
 import helmet from "helmet";
 
@@ -20,56 +19,12 @@ const serverSettings = {
 	name: "Jani Haiko's server",
 	noWriteContinue: true
 };
-if (productionMode) {
-	const certs = {
-		"kissakala.sytes.net": {
-			cert: readFileSync(process.env.CERTIFICATE),
-			key: readFileSync(process.env.CERTIFICATE_KEY)
-		},
-		"dyn.kissakala.fi": {
-			cert: readFileSync(process.env.CERTIFICATE_DYN),
-			key: readFileSync(process.env.CERTIFICATE_KEY_DYN)
-		}
-	};
-
-	const secureContext = {
-		"kissakala.sytes.net": createSecureContext({
-			cert: certs["kissakala.sytes.net"].cert,
-			key: certs["kissakala.sytes.net"].key,
-		}),
-		"dyn.kissakala.fi": createSecureContext({
-			cert: certs["dyn.kissakala.fi"].cert,
-			key: certs["dyn.kissakala.fi"].key,
-		})
-	};
-
-	Object.assign(serverSettings, {
-		http2: {
-			cert: certs["kissakala.sytes.net"].cert,
-			key: certs["kissakala.sytes.net"].key,
-			allowHTTP1: true,
-			SNICallback: (hostname, cb) => {
-				cb(null, secureContext[hostname]);
-			}
-		}
-	});
-}
 const app = createServer(serverSettings);
 
 const iconBase64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABuwAAAbsBOuzj4gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANASURBVHic7dq/i1RXFAfwz1tlcSUoWcFCTRPYTSMJLIiWFlH8UQQrhXQpLCZFqtSptglYpQqkMSH5A4Ib2G4bS0GwEkUQMY0xIlHYdcVrMXdhvL6dvDfzZu7Ie184DDO8c873ft+759177hQhBG3GXG4CudEJkJtAbnQC5CaQG50AuQnkRidAbgK50QmQm0BudALkJpAbrRdg7zSSFEWxhM9wdMCOxE94jL/j547dDSHcmzi3SfQDiqLYh9O4iAv4dMRQD/AX1rARQthshOAgQgiNGPbgMm7gJULD9jLGvow9jfFuYOD78W28W3UH9TRaXb8HMef+bALgEH7Ak4qkt7GOHpaxMBBrIf7Wi9dsV4z5JHI4NDUB9N8cPTyrccfuYKVGjpXoUzX+s8hpbqIC4BRu1SD2GquYH0Ho+ej7uka+WzjVuAA4iF/wpuY8PTEk5iLO4Ct8gX27XHdCvfryJnI92IgAOI57NQjs3Pn3Bo9PcB33S3ye42d8tIsIdZ6EEDkfH0sAXMGLmokDVktifRMHOczvxyFcVkfg8QJXagugv0K8NkLCoF+85pN4f1Tw+1NcmA2pCXUK46Bdw95KAuAwNkZMtC2p9vHOV/G9VGE6rqj+ikxtA4eHCoCTeDRigoD1kjn/f4990C9cixUL8voY/B7hZKkAOI/NMYIH9BKy1yv6PTfk8U9i9sbkuInz7wigv2kZd/ABywnZsmq/m31eUYDlBnhu4mKM5xy2GggavLu8Xazp+11FARYa4roVx+52QwGfJkTP1PT/F0sVRRhlA1Vmt2epI/QxbhRFcWzaiWdlCuzYK/yOs/rNlK9xYGJTYIaK4G720MAbQsNFcA5CCGu4FFUZB18m32+OGQ9+CzvlujxHXWzpL7rWYFYWQsOmw1ISczILoRlYCpfZ1akuhQcS5dgMpfZTEmM6m6Ek6bS3wwH/4XtJ59c0t8NJ4mk1RP7BrzhS4penITJAYJItsXNlg04Gn68llpBpZ1M0IdbetnhCsp0HIyVCtPNorESID/JwtPXH4xMR4L0kbfuDxIeEWeoIZUEnQG4CudEJkJtAbnQC5CaQG50AuQnkRidAbgK50QmQm0ButF6At8nwsS0JQYGEAAAAAElFTkSuQmCC";
 
 let cooldown = false;
 let currentCount;
-
-app.use(plugins.throttle({
-	burst: 2,
-	rate: 1,
-	ip: true,
-	username: false,
-	xff: false
-}));
-
-app.use(plugins.gzipResponse());
 
 // Helmet
 app.use(helmet({
@@ -112,11 +67,6 @@ app.use((_req, res, next) => {
 });
 
 // ### Routes
-
-app.opts("*", (_req, res) => {
-	res.header("Access-Control-Allow-Methods", "GET");
-	res.status(201).send();
-});
 
 app.get("/", (_req, res) => {
 	res.send(200, "OK");
@@ -165,13 +115,6 @@ app.get("/latest.svg", async (req, res) => {
 			catch (fetchError) {
 				console.error(fetchError);
 			}
-
-			// FIXME: req.connection is deprecated
-			appendFile("ip_addresses.log", `${req.connection.remoteAddress}\n`, (error) => {
-				if (error) {
-					console.error(error);
-				}
-			});
 		}
 
 		// (Try to) manage GitHub cache
@@ -191,7 +134,7 @@ app.get("/latest.svg", async (req, res) => {
 });
 
 // ### Starting the server
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8090;
 app.listen(port, () => {
 	console.info(`Server successfully started on port ${port}`);
 	if (!productionMode) {
