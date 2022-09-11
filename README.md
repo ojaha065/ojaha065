@@ -42,8 +42,8 @@ During my free time I'm hacking together projects all over the place. Feel free 
     <summary>:sparkles: GitHub achievements and miscellaneous statistics (click to show)</summary>
     <br />
     <img src="https://github-profile-trophy.vercel.app/?username=ojaha065&theme=gruvbox&margin-w=3&margin-h=3&no-frame=true" alt="GitHub Profile Trophy by ryo-ma" />
-    <!--<hr />
-    <img src="http://dyn.kissakala.fi:22394/ojaha065?base=0&&base.indepth=yes&config.timezone=Europe%2FHelsinki&config.twemoji=yes&config.gemoji=yes&config.animations=yes&retries=1&calendar=yes&calendar.limit=0&stars=yes&stars_limit=10&people=yes&people.limit=25&people.shuffle=yes&achievements=yes&achievements.secrets=yes&achievements.display=compact&fortune=yes&topics=yes&topics.sort=stars&gists=yes" alt="GitHub Metrics" />-->
+    <hr />
+    <img src="https://gh-metrics.kissakala.fi/ojaha065?template=classic&base.indepth=true&repositories.forks=true&achievements=1&activity=1&calendar=1&gists=1&people=1&starlists=1&stars=1&topics=1&fortune=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=true&base.hireable=false&base.skip=false&topics=false&topics.mode=icons&topics.sort=stars&topics.limit=15&stars=false&stars.limit=4&people=false&people.limit=24&people.identicons=false&people.identicons.hide=false&people.size=28&people.types=followers%2C%20following&people.thanks=octocat&people.shuffle=true&starlists=false&starlists.limit=5&starlists.limit.repositories=5&starlists.languages=false&starlists.limit.languages=8&starlists.shuffle.repositories=true&calendar=false&calendar.limit=5&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&activity=false&activity.limit=5&activity.load=300&activity.days=100&activity.visibility=all&activity.timestamps=true&activity.filter=all&gists=false&fortune=false&config.timezone=Europe%2FHelsinki&config.twemoji=true&config.octicon=true" alt="GitHub Metrics" />
 </details>
 
 - - - -
