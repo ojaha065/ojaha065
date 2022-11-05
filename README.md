@@ -19,11 +19,11 @@ I'm a web/software developer currently living in Mikkeli, Finland. I graduated f
 
 During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂
 
-<p>
+<!--<p>
     <img src="https://www.kissakala.fi/hitcounter/latest.svg" alt="??? page views" />
     <br />
     <sub><em>Because <b>of course</b> you need to have a view counter in your GitHub profile, amirite?</em></sub>
-</p>
+</p>-->
 
 - - - -
 <a align="left" href="mailto:hello@jhaiko.tech"><img src="https://img.shields.io/static/v1?label=&message=hello@jhaiko.tech&color=D44638&labelColor=C6C6C6&style=flat&logo=gmail" alt="Email" /></a>
