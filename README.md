@@ -1,23 +1,31 @@
 <div>
-    <img src="https://jhaiko.tech/kuvat/oie_cEqh0sjvGOAc.gif" align="center" alt="Hello World!" />
-    <img src="https://media.giphy.com/media/oehyAgfgidCgg/source.gif" width="150" align="center" alt="Raccoon" />
+    <picture><img src="https://jhaiko.tech/kuvat/oie_cEqh0sjvGOAc.gif" align="center" alt="Hello World!" /></picture>
+    <picture><img src="https://media.giphy.com/media/oehyAgfgidCgg/source.gif" width="150" align="center" alt="Raccoon" /></picture>
 </div>
 
 <p>
-    <img src="https://img.shields.io/static/v1?label=Pronouns&message=he%2Fhim&style=plastic&cacheSeconds=7200" alt="Pronouns: he/him" />
+    <picture><img src="https://img.shields.io/static/v1?label=Pronouns&message=he%2Fhim&style=plastic&cacheSeconds=7200" alt="Pronouns: he/him" /></picture>
     <a href="https://www.16personalities.com/profiles/bd133a3a5dde2"><img src="https://img.shields.io/static/v1?label=Myers–Briggs Personality Type&message=ISTJ-T&style=plastic&cacheSeconds=7200" alt="Myers–Briggs Personality Type: ISTJ-T" /></a>
     <br />
-    <img src="https://img.shields.io/static/v1?label=Build&message=passing&style=plastic&cacheSeconds=7200&color=success" alt="Build: passing" />
-    <img src="https://img.shields.io/static/v1?label=Dependencies%20last%20updated&message=June%201st%201997&style=plastic&cacheSeconds=7200" alt="Dependencies last updated: June 1st 1997" />
+    <picture><img src="https://img.shields.io/static/v1?label=Build&message=passing&style=plastic&cacheSeconds=7200&color=success" alt="Build: passing" /></picture>
+    <picture><img src="https://img.shields.io/static/v1?label=Dependencies%20last%20updated&message=June%201st%201997&style=plastic&cacheSeconds=7200" alt="Dependencies last updated: June 1st 1997" /></picture>
     <br />
-    <img src="https://img.shields.io/static/v1?label=Vulnerabilities&message=high&style=plastic&cacheSeconds=7200&color=red" alt="Vulnerabilities: high" />
+    <picture><img src="https://img.shields.io/static/v1?label=Vulnerabilities&message=high&style=plastic&cacheSeconds=7200&color=red" alt="Vulnerabilities: high" /></picture>
 </p>
 
 Don't know how you stumbled across my little corner here but glad to have you. :wave:
 
-I'm a web/software developer currently living in Mikkeli, Finland. I graduated from university of applied sciences (or polytechnic, as it's known is some places) in 2020 and my degree programme mostly specialized in modern web development technologies. Currently, I'm working as IT Specialist at [Disec Oy](https://disec.fi/ "Disec Oy").
+I'm a web/software developer currently living in Mikkeli, Finland. I graduated from university of applied sciences (or polytechnic, as it's known is some places) in 2020 and my degree programme mostly specialized in modern web development technologies. Currently, I'm working as IT Specialist at [Disec Oy](https://disec.fi/ "Disec Oy").![image](https://user-images.githubusercontent.com/37581768/213276062-231fb42e-aa42-4a3f-8289-61ba7a749a99.png)![image](https://user-images.githubusercontent.com/37581768/213276064-e054908a-8492-4dd4-982c-f789248aa7ca.png)
 
-During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂
+
+
+During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂![image](https://user-images.githubusercontent.com/37581768/213276030-297e2a37-a889-4b22-9fd3-ee34d8b6f9b1.png)![image](https://user-images.githubusercontent.com/37581768/213276046-da6c29ef-887b-46db-a631-c18e1b1dceb4.png)![image](https://user-images.githubusercontent.com/37581768/213276049-7e46faa4-e947-408f-8fe8-dc03150d9845.png)![image](https://user-images.githubusercontent.com/37581768/213276051-6577ea89-02e1-44eb-9019-fcde476b473f.png)![image](https://user-images.githubusercontent.com/37581768/213276052-51ae6aad-ce35-4379-98c1-c828fb14e9bb.png)
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/37581768/213276033-ae3e0f5f-89b8-4f7e-94fd-d75093ba91fb.png)
 
 <!--<p>
     <img src="https://www.kissakala.fi/hitcounter/latest.svg" alt="??? page views" />
@@ -41,14 +49,14 @@ During my free time I'm hacking together projects all over the place. Feel free 
 <details>
     <summary>:sparkles: GitHub achievements and miscellaneous statistics (click to show)</summary>
     <br />
-    <img src="https://github-profile-trophy.vercel.app/?username=ojaha065&theme=gruvbox&margin-w=3&margin-h=3&no-frame=true" alt="GitHub Profile Trophy by ryo-ma" />
+    <picture><img src="https://github-profile-trophy.vercel.app/?username=ojaha065&theme=gruvbox&margin-w=3&margin-h=3&no-frame=true" alt="GitHub Profile Trophy by ryo-ma" /></picture>
     <hr />
-    <img src="https://gh-metrics.kissakala.fi/ojaha065?template=classic&base.indepth=true&repositories.forks=true&achievements=1&activity=1&calendar=1&gists=1&people=1&starlists=1&stars=1&topics=1&fortune=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=true&base.hireable=false&base.skip=false&topics=false&topics.mode=icons&topics.sort=stars&topics.limit=15&stars=false&stars.limit=4&people=false&people.limit=24&people.identicons=false&people.identicons.hide=false&people.size=28&people.types=followers%2C%20following&people.thanks=octocat&people.shuffle=true&starlists=false&starlists.limit=5&starlists.limit.repositories=5&starlists.languages=false&starlists.limit.languages=8&starlists.shuffle.repositories=true&calendar=false&calendar.limit=5&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&activity=false&activity.limit=5&activity.load=300&activity.days=100&activity.visibility=all&activity.timestamps=true&activity.filter=all&gists=false&fortune=false&config.timezone=Europe%2FHelsinki&config.twemoji=true&config.octicon=true&sponsorships=1&sponsorships.sections=amount%2C%20sponsorships&sponsorships.size=24" alt="GitHub Metrics" />
+    <picture><img src="https://gh-metrics.kissakala.fi/ojaha065?template=classic&base.indepth=true&repositories.forks=true&achievements=1&activity=1&calendar=1&gists=1&people=1&starlists=1&stars=1&topics=1&fortune=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=true&base.hireable=false&base.skip=false&topics=false&topics.mode=icons&topics.sort=stars&topics.limit=15&stars=false&stars.limit=4&people=false&people.limit=24&people.identicons=false&people.identicons.hide=false&people.size=28&people.types=followers%2C%20following&people.thanks=octocat&people.shuffle=true&starlists=false&starlists.limit=5&starlists.limit.repositories=5&starlists.languages=false&starlists.limit.languages=8&starlists.shuffle.repositories=true&calendar=false&calendar.limit=5&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&activity=false&activity.limit=5&activity.load=300&activity.days=100&activity.visibility=all&activity.timestamps=true&activity.filter=all&gists=false&fortune=false&config.timezone=Europe%2FHelsinki&config.twemoji=true&config.octicon=true&sponsorships=1&sponsorships.sections=amount%2C%20sponsorships&sponsorships.size=24" alt="GitHub Metrics" /></picture>
 </details>
 
 - - - -
 
-<img align="left" width="440" height="195" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=gruvbox&include_all_commits=true&hide=prs" alt="My GitHub stats" />
-<img align="left" height="195" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true&theme=gruvbox" alt="My top languages" />
+<picture><img align="left" width="440" height="195" src="https://github-readme-stats.vercel.app/api?username=ojaha065&count_private=true&show_icons=true&theme=gruvbox&include_all_commits=true&hide=prs" alt="My GitHub stats" /></picture>
+<picture><img align="left" height="195" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojaha065&hide=ShaderLab,GLSL,HLSL&langs_count=10&layout=compact&hide_border=true&theme=gruvbox" alt="My top languages" /></picture>
 
-<p align="center"><img src="https://readme-jokes.vercel.app/api?v=2" alt="Jokes Card" /></p>
+<p align="center"><picture><img src="https://readme-jokes.vercel.app/api?v=2" alt="Jokes Card" /></picture></p>
