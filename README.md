@@ -15,17 +15,9 @@
 
 Don't know how you stumbled across my little corner here but glad to have you. :wave:
 
-I'm a web/software developer currently living in Mikkeli, Finland. I graduated from university of applied sciences (or polytechnic, as it's known is some places) in 2020 and my degree programme mostly specialized in modern web development technologies. Currently, I'm working as IT Specialist at [Disec Oy](https://disec.fi/ "Disec Oy").![image](https://user-images.githubusercontent.com/37581768/213276062-231fb42e-aa42-4a3f-8289-61ba7a749a99.png)![image](https://user-images.githubusercontent.com/37581768/213276064-e054908a-8492-4dd4-982c-f789248aa7ca.png)
+I'm a web/software developer currently living in Mikkeli, Finland. I graduated from university of applied sciences (or polytechnic, as it's known is some places) in 2020 and my degree programme mostly specialized in modern web development technologies. Currently, I'm working as IT Specialist at [Disec Oy](https://disec.fi/ "Disec Oy").
 
-
-
-During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂![image](https://user-images.githubusercontent.com/37581768/213276030-297e2a37-a889-4b22-9fd3-ee34d8b6f9b1.png)![image](https://user-images.githubusercontent.com/37581768/213276046-da6c29ef-887b-46db-a631-c18e1b1dceb4.png)![image](https://user-images.githubusercontent.com/37581768/213276049-7e46faa4-e947-408f-8fe8-dc03150d9845.png)![image](https://user-images.githubusercontent.com/37581768/213276051-6577ea89-02e1-44eb-9019-fcde476b473f.png)![image](https://user-images.githubusercontent.com/37581768/213276052-51ae6aad-ce35-4379-98c1-c828fb14e9bb.png)
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/37581768/213276033-ae3e0f5f-89b8-4f7e-94fd-d75093ba91fb.png)
+During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂
 
 <!--<p>
     <img src="https://www.kissakala.fi/hitcounter/latest.svg" alt="??? page views" />
