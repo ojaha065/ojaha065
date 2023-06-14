@@ -32,7 +32,7 @@ During my free time I'm hacking together projects all over the place. Feel free 
 &nbsp;
 <a align="left" href="https://mastodon.social/@jakeRaccoon"><img src="https://img.shields.io/static/v1?label=&message=JRaccoon&color=1f232c&style=flat&logo=Mastodon" alt="mastodon.social" /></a>
 &nbsp;
-<a align="left" href="https://discordapp.com/users/400220327075905538"><img src="https://img.shields.io/static/v1?label=&message=JRaccoon%237282&color=2C2F33&style=flat&logo=discord" alt="Discord" /></a>
+<a align="left" href="https://discordapp.com/users/400220327075905538"><img src="https://img.shields.io/static/v1?label=&message=JRaccoon&color=2C2F33&style=flat&logo=discord" alt="Discord" /></a>
 &nbsp;
 <a align="left" href="https://steamcommunity.com/id/hiilivety/"><img src="https://img.shields.io/static/v1?label=&message=DisasterMaster&color=1b2838&style=flat&logo=steam" alt="Steam" /></a>
 &nbsp;
