@@ -13,17 +13,11 @@
     <picture><img src="https://img.shields.io/static/v1?label=Vulnerabilities&message=high&style=plastic&cacheSeconds=7200&color=red" alt="Vulnerabilities: high" /></picture>
 </p>
 
-Don't know how you stumbled across my little corner here but glad to have you. :wave:
+Hi there 👋 Not sure how you found your way to my little corner here, but glad to have you.
 
-I'm a web/software developer currently living in Mikkeli, Finland. I graduated from university of applied sciences (or polytechnic, as it's known is some places) in 2020 and my degree programme mostly specialized in modern web development technologies. Currently, I'm working as IT Specialist at [Disec Oy](https://disec.fi/ "Disec Oy").
+A bit about me: I graduated from a university of applied sciences in 2020 with a degree program specializing in modern web development. My Bachelor’s Thesis focused on strong electronic identification in online services and was commissioned by my current employer, where I now work as an IT Specialist. Recently, my role has shifted to being a Scrum Master and facilitator for a team of developers, though I still have a passion for backend development.
 
-During my free time I'm hacking together projects all over the place. Feel free to check out my repos to learn more if interested. 🙂
-
-<!--<p>
-    <img src="https://www.kissakala.fi/hitcounter/latest.svg" alt="??? page views" />
-    <br />
-    <sub><em>Because <b>of course</b> you need to have a view counter in your GitHub profile, amirite?</em></sub>
-</p>-->
+Though my background is in full-stack development, I’m much more passionate about backend work. Outside of tech, I love spending my summers outdoors, whether trekking, camping, or going on long hiking trips. I’m also somewhat of an avgeek ✈️ and a big Lego enthusiast.
 
 - - - -
 <a align="left" href="mailto:hello@jhaiko.tech"><img src="https://img.shields.io/static/v1?label=&message=hello@jhaiko.tech&color=D44638&labelColor=C6C6C6&style=flat&logo=gmail" alt="Email" /></a>
