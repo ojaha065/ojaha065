@@ -5,7 +5,7 @@
 
 <p>
     <picture><img src="https://img.shields.io/static/v1?label=Pronouns&message=he%2Fhim&style=plastic&cacheSeconds=7200" alt="Pronouns: he/him" /></picture>
-    <a href="https://www.16personalities.com/profiles/bd133a3a5dde2"><img src="https://img.shields.io/static/v1?label=Myers–Briggs Personality Type&message=ISTJ-T&style=plastic&cacheSeconds=7200" alt="Myers–Briggs Personality Type: ISTJ-T" /></a>
+    <a href="https://www.16personalities.com/profiles/bd133a3a5dde2"><img src="https://img.shields.io/static/v1?label=Myers–Briggs Personality Type&message=INFJ-T&style=plastic&cacheSeconds=7200" alt="Myers–Briggs Personality Type: INFJ-T" /></a>
     <br />
     <picture><img src="https://img.shields.io/static/v1?label=Build&message=passing&style=plastic&cacheSeconds=7200&color=success" alt="Build: passing" /></picture>
     <picture><img src="https://img.shields.io/static/v1?label=Dependencies%20last%20updated&message=June%201st%201997&style=plastic&cacheSeconds=7200" alt="Dependencies last updated: June 1st 1997" /></picture>
