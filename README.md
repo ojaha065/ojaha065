@@ -15,7 +15,7 @@
 
 Hi there 👋 Not sure how you found your way to my little corner here, but glad to have you.
 
-A bit about me: I graduated from a university of applied sciences in 2020 with a degree program specializing in modern web development. My Bachelor’s Thesis focused on strong electronic identification in online services and was commissioned by my current employer, where I now work as an IT Specialist. Recently, my role has shifted to being a Scrum Master and facilitator for a team of developers, though I still have a passion for backend development.
+A bit about me: I graduated from a university of applied sciences in 2020 with a degree program specializing in modern web development. My Bachelor’s Thesis focused on strong electronic identification in online services and was commissioned by my current employer. Recently, my role has shifted to being a Scrum Master and facilitator for a team of developers, though I still have a passion for backend development.
 
 Though my background is in full-stack development, I’m much more passionate about backend work. Outside of tech, I love spending my summers outdoors, whether trekking, camping, or going on long hiking trips. I’m also somewhat of an avgeek ✈️ and a big Lego enthusiast.
 
